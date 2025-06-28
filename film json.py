@@ -3,7 +3,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 from telegram.request import HTTPXRequest
 
-TOKEN = "8193454751:AAFYe2yYgCLIVJhTtZNG-OIXDRV1PPNzWhg"
+import os
+TOKEN = os.environ['8193454751:AAFYe2yYgCLIVJhTtZNG-OIXDRV1PPNzWhg']
 
 # فایل ذخیره‌سازی
 DATA_FILE = "data.json"
