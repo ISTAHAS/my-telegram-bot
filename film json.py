@@ -1,9 +1,9 @@
 import json
+import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 from telegram.request import HTTPXRequest
 
-import os
 TOKEN = os.environ['8193454751:AAFYe2yYgCLIVJhTtZNG-OIXDRV1PPNzWhg']
 
 # فایل ذخیره‌سازی
